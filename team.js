@@ -8,10 +8,10 @@ class Team {
 
 newProgrammer (name, position, age, language) {
     let newProgrammer = new Programmer(name, position, age, language);
-    newProgrammer.printStats();
+    newProgrammer.printInfo();
     this.programmers.push(newProgrammer); 
 };
-programmerCount() {
+programmerTotal() {
   return this.programmers.length;
 };
 }
